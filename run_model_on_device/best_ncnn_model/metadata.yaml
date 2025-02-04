@@ -1,0 +1,16 @@
+description: Ultralytics best model trained on /root/trainyolov8/data.yaml
+author: Ultralytics
+date: '2024-10-26T14:36:55.612306'
+version: 8.3.23
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: fire
+  1: safe-fire
+  2: smoke
